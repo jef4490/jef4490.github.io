@@ -1,0 +1,21 @@
+# Site settings
+title: Jeff Development
+header-img: img/home-bg.png
+email: jeffrey.hechler@gmail.com
+copyright_name: jef4490
+description: > # this means to ignore newlines until "baseurl:"
+  Web Developer Developing
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: jeffthehechler
+github_username:  jef4490
+learn_profile: jef4490
+email_username: jeffrey.hechler@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
