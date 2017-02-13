@@ -11,9 +11,9 @@ Learn #1: There’s more than one way to the right answer. When I solved these p
 ```
 attribute_method (player_name)
  iterate through large_hash
- if name == name
-  return [name][attribute]
- end
+  if name == name
+   return [name][attribute]
+  end
  end
 end
 ```
