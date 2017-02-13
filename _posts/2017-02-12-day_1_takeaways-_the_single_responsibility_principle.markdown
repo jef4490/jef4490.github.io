@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Day 1 Takeaways- The Single Responsibility Principle"
-date:   2017-02-12 16:44:33 +0000
+date:   2017-02-12 11:44:34 -0500
 ---
 
 During my first day at Flatiron, we revisited an assignment, ‘Hashketball’, from the prework that involved digging into hashes to find specific pieces of information. I had done this particular assignment twice already (for the sake of review) so I wasn’t stoked about doing it again. That was silly. Here’s a list of things I learned from completing it a third time with a pro:
@@ -10,11 +10,11 @@ Learn #1: There’s more than one way to the right answer. When I solved these p
 
 ```
 attribute_method (player_name)
-	iterate through large_hash
-		if name == name
-			return [name][attribute]
-		end
+iterate through large_hash
+	if name == name
+		return [name][attribute]
 	end
+end
 end
 ```
 
