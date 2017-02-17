@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Day 1 Takeaways- The Single Responsibility Principle"
+title:  "The Single Responsibility Principle & My First Day at Flatiron"
 date:   2017-02-12 11:44:34 -0500
 ---
 
