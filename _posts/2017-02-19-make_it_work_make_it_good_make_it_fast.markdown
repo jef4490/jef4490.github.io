@@ -22,7 +22,7 @@ One of the first things I remember our instructor at Flatiron conveying to us we
     # }
     # cat_names = catamarans.map{|b| b.name}
     # y = self.all.select{|capn| capn.boats.any?{
-	#   |boat| cat_names.any?{|cat| boat.name == cat}}
+    #   |boat| cat_names.any?{|cat| boat.name == cat}}
     # }
     # name_array = y.map{|c| c.name}
     # z = self.where({name: name_array})
