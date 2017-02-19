@@ -5,7 +5,7 @@ date:   2017-02-18 23:00:32 -0500
 ---
 
 
-In 2013 I began working at a small music house in midtown Manhattan; a business that writes and records music for commercials, television, and occasionally movies. They specialize in creating music for picture and have developed a reputation for doing some really interesting stuff. Prior to working there I had a background in composition, but during my time at Analogue Muse I picked up a lot about audio engineering/production as well. I eventually went on to engineer the recording of a [full length album](https://blackbeartribe.bandcamp.com/album/spin-measure-cut) with a band I was in at the time. 
+In 2013 I began working at a small music house in midtown Manhattan; a business that writes and records music for commercials, television, and occasionally movies. They specialize in creating music for picture and have developed a reputation for doing some really interesting stuff. Prior to working there I had a background in composition, but during my time at Analogue Muse I picked up a lot about audio engineering/production as well. I eventually went on to engineer the recording of a full length album with a [band](https://blackbeartribe.bandcamp.com/album/spin-measure-cut) I was in at the time. 
 What does this have to do with coding? It’s the most comparable life experience to my current situation I’ve had- a need to absorb a massive amount of information in a relatively short amount of time. Learning each has been a privilege and a challenge, overwhelming at times. But I think there’s quite a lot of similarity in the process, both of which require a combination of technical ability and inspired creative thinking. A union of left brain and right brain. 
 
 ![](https://upload.wikimedia.org/wikipedia/en/6/6c/Rush_Hemispheres.jpg)
@@ -32,7 +32,9 @@ One of the first things I remember our instructor at Flatiron conveying to us we
 		
   end
 ``` 
-*pictured above: refactoring boat code*
+*pictured above: refactoring [boat code](https://imgur.com/a/ItmiK)*
+
+
 
 This sentiment is paralleled in recording music. Imagine you’re the drummer of a band in the studio and you’re asked to sit down alone and, in one take, give the best ever performance of your band’s song. You’re not really being setup for success. For one, you’re probably so focused on the form of the song (“How long are the verses?”, “Is this chorus the one where I drop out for a measure?”) that you can’t focus on nailing all of the details that make your track come alive. There’s a good chance you’re playing to a metronome which is also an unnatural situation. It’s not too much of a stretch to say you’d probably want to play along with a ‘scratch track’, a simple recording that some or all of the other members of the band made of their own parts for the sole purpose of giving you something to aid in your recording. You can now play that sweet fill you came up with synchronized with a tasty lick from the bass player knowing with 100% certainty that this is the right part of the song to do so. Then when you’ve delivered the hottest take you had, your band members ditch the scratch track and record their best performances to yours, reacting to the moments of inspiration you improvised into your recording. Maybe the guitar player heard that sweet moment between you and the bass player and dropped out to let it breathe. No. Probably not. But hey, you can dream. 
 Make it work is the scratch track. It communicates the idea of the song to the listener. Make it good is the final take. 
