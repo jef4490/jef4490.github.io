@@ -48,9 +48,9 @@ Finally, it’s clear to me that there’s a balance to be struck in the make it
 
 Sources: 
 
-http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast
+[http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast](http://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast)
 
-http://henriquebastos.net/the-make-it-work-make-it-right-make-it-fast-misconception/
+[http://henriquebastos.net/the-make-it-work-make-it-right-make-it-fast-misconception/](http://henriquebastos.net/the-make-it-work-make-it-right-make-it-fast-misconception/)
 
 
 
