@@ -34,7 +34,7 @@ One of the first things I remember our instructor at Flatiron conveying to us we
 		
   end
 ``` 
-*pictured above: refactoring [boat code](https://imgur.com/a/ItmiK)*
+*Pictured above: refactoring [boat code](https://imgur.com/a/ItmiK)*
 
 
 
