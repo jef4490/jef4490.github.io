@@ -36,6 +36,9 @@ One of the first things I remember our instructor at Flatiron conveying to us we
 *Pictured above: refactoring [boat code](https://imgur.com/a/ItmiK)*
 
 
+![](https://i.imgur.com/BKF6uVq.png)
+
+
 
 This sentiment is paralleled in recording music. Imagine you’re the drummer of a band in the studio and you’re asked to sit down alone and, in one take, give the best ever performance of your band’s song. You’re not really being setup for success. For one, you’re probably so focused on the form of the song (“How long are the verses?”, “Is this chorus the one where I drop out for a measure?”) that you can’t focus on nailing all of the details that make your track come alive. There’s a good chance you’re playing to a metronome which is also an unnatural situation. It’s not too much of a stretch to say you’d probably want to play along with a ‘scratch track’, a simple recording that some or all of the other members of the band made of their own parts for the sole purpose of giving you something to aid in your recording. You can now play that sweet fill you came up with synchronized with a tasty lick from the bass player knowing with 100% certainty that this is the right part of the song to do so. Then when you’ve delivered the hottest take you had, your band members ditch the scratch track and record their best performances to yours, reacting to the moments of inspiration you improvised into your recording. Maybe the guitar player heard that sweet moment between you and the bass player and dropped out to let it breathe. No. Probably not. But hey, you can dream. 
 Make it work is the scratch track. It communicates the idea of the song to the listener. Make it good is the final take. 
