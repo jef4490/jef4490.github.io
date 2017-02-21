@@ -12,32 +12,9 @@ What does this have to do with coding? It’s the most comparable life experienc
 
 One of the first things I remember our instructor at Flatiron conveying to us were the words, “Make it work, Make it good, Make it fast.” The idea is that, when writing code, we can get so bogged down with the idea of writing the best code possible and this prevents us from actually solving the problems. I’ve certainly been there a number of times in the last week. The mantra suggests that it is better to write a functional solution to the problem, however dirty and code-smelly, and then turn one’s attention refactoring the code, favoring more powerful enumerators and higher level functions. Perhaps writing more helper methods to make your code more readable and expressive. Having a working solution can aid in all of that. If my solution took five steps to complete the task, being able to see the return value of step four is immensely helpful in building better code. Maybe I can compact steps 1-3 into a single method and eliminate ten lines of code? Maybe I realize that one of the steps isn’t necessary at all. Either way, I’ve come to see the value in such an approach when dealing with challenging problems. 
 
-```
-
-  def self.catamaran_operators
-    # ------------- first pass --------------
-    # catamarans = Boat.all.select{
-    #  |boat| boat.classifications.any?{
-    #  |c| c.name == "Catamaran"}
-    # }
-    # cat_names = catamarans.map{|b| b.name}
-    # y = self.all.select{|capn| capn.boats.any?{
-    #   |boat| cat_names.any?{|cat| boat.name == cat}}
-    # }
-    # name_array = y.map{|c| c.name}
-    # z = self.where({name: name_array})
-    # ---------- end first pass --------------
-		
-		
-    x = self.includes(:classifications).where("classifications.name = ?", "Catamaran")
-		
-  end
-``` 
-*Pictured above: refactoring [boat code](https://imgur.com/a/ItmiK)*
-
-
 ![](https://i.imgur.com/BKF6uVq.png)
 
+*Pictured above: refactoring [boat code](https://github.com/jef4490/model-class-methods-lab-web-0217)*
 
 
 This sentiment is paralleled in recording music. Imagine you’re the drummer of a band in the studio and you’re asked to sit down alone and, in one take, give the best ever performance of your band’s song. You’re not really being setup for success. For one, you’re probably so focused on the form of the song (“How long are the verses?”, “Is this chorus the one where I drop out for a measure?”) that you can’t focus on nailing all of the details that make your track come alive. There’s a good chance you’re playing to a metronome which is also an unnatural situation. It’s not too much of a stretch to say you’d probably want to play along with a ‘scratch track’, a simple recording that some or all of the other members of the band made of their own parts for the sole purpose of giving you something to aid in your recording. You can now play that sweet fill you came up with synchronized with a tasty lick from the bass player knowing with 100% certainty that this is the right part of the song to do so. Then when you’ve delivered the hottest take you had, your band members ditch the scratch track and record their best performances to yours, reacting to the moments of inspiration you improvised into your recording. Maybe the guitar player heard that sweet moment between you and the bass player and dropped out to let it breathe. No. Probably not. But hey, you can dream. 
