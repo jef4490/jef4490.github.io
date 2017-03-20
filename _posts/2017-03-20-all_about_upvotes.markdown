@@ -20,7 +20,7 @@ First, you can learn more about your the quality of your content than merely the
 
 Second, you can also learn about the user’s individual preferences. Being able to curate content to match a particular user’s taste. For a music discovery platform like ours, the applications are pretty obvious. People tend to have strong preferences that do not always overlap with others’.
 
-## Domain Modeling
+**Domain Modeling**
 
 So what’s holding us back? Well a few things. First, where do we keep and access this information? In our database, we can persist this information for future use and confirm that users aren’t able to upvote the same content multiple times. So it made sense for us to set this up as a join table, votes, with foreign keys to an account (user) and to the review that it applied to. We also had a column for the value of the vote (1, 0, or -1) which allowed us to use SQL aggregating to sum up these values for an individual review’s score. But when we began to set up our object model for votes and code the relationships it became clear it was a little more complicated than the examples we’d be exposed to so far. 
 
@@ -46,7 +46,7 @@ When loading the show page for a review, we’d check to see if you’ve cast a 
 
 …it should follow that by clicking the upvote button again, the light would turn off and the value of my vote would be zero, as if I had neither upvoted nor downvoted. 
 
-## Real Time Response
+**Real Time Response**
 
 I would have been satisfied with this system had Ian not offhandedly said, “If only we didn’t have to reload the page”. Yeah. That would be cool, but it was beyond my familiarity and abilities. Still, I couldn’t get the idea out of my head. My classmate Charles suggested [WebSockets](https://en.wikipedia.org/wiki/WebSocket), a topic I with which I was familiar in theory but less so in practice. So, thinking “am I really going to go down this rabbit hole?”, I embarked on the quest for real-time upvotes. I started with [this excellent blog post](https://blog.heroku.com/real_time_rails_implementing_WebSockets_in_rails_5_with_action_cable), which went through the steps to set up action cable, Rails’ built in web socket technology. The blog was fairly detailed, I needed only adjust a few pieces to make her solution work for my problem. And before I knew it, I was	 seeing this in my terminal
 
