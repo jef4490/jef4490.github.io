@@ -1,13 +1,15 @@
 ---
 layout: post
 title:  "All About Upvotes"
-date:   2017-03-20 03:28:15 +0000
+date:   2017-03-19 23:28:16 -0400
 ---
 
 This past week we deployed our first projects at Flatiron. The five day period we were given to create these web applications is referred to as “project mode” and it is an accurate term for my M.O. during that period. All structure in my life went out the window as I coded and coded; I would sometimes realize at 11 PM that I hadn’t eaten dinner. My teammate, Ian, noted that it was a rare situation where time, not creativity or ability, was the limiting factor in what we could produce. I cannot overstate what an awesome thing it was to be so involved in the work we were doing and the code we were writing.
 
 
 There were a lot of lessons learned during project mode and I will probably go into some of them at a later point in this blog, but today I want to talk about the thing I am most proud of having implemented into our application: upvotes.
+
+![](http://i1.kym-cdn.com/photos/images/original/000/675/823/6ab.gif)
 
 Some context. Our project was an application that functioned as a music discovery platform. We utilized the Spotify API to encapsulate song objects that included an embedded player. The main focus of the app was that users would write reviews for songs they listened to and these reviews would determine recommendations for their friends. However, in an effort to further control for review quality and more intelligent recommendations, we wanted to implement an up upvote system that gave people the chance to indicate whether a particular review was good or helpful. The mechanic is, of course, implemented on lots of popular websites today in a variety of ways: Reddit upvotes/downvotes, Facebook likes, YouTube thumbs up/thumbs down. They all have slight differences (e.g. Facebook now has several types of reactions, some negative) but fundamentally allow the developers to gather information about how your users enjoyed particular content. This is really cool for two reasons. 
 
