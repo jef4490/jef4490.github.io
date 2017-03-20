@@ -87,3 +87,5 @@ Phew. At last, our work is complete!
 ![](https://s14.postimg.org/6ff8qekb5/ezgif_3_7794e948af.gif)
 
 What I loved about this particular portion of the project was that I got the implementation of this feature through from concept to reality. I thank my teammates for trusting me to make it work, and let me go down the rabbit hole of websockets to emerge the better for it. I hope that this may be helpful to somebody looking to use this system in their own application. And I hope to have many more coding experiences as engaging as this one proved to be.
+
+See this code in action at [KokoMusic](http://kokomusic.herokuapp.com). ([GitHub](https://github.com/depaolif/yelpify))
