@@ -86,7 +86,7 @@ But also this. :-(
 
 ![](https://s13.postimg.org/9slqoh3on/ezgif_3_a25e597e78.gif)
 
-Oh no! Even though their votes were distinct, the two users were looking at the same form. That’s not good. Let's try something like this to make sure their each getting a unique form (and broadcasting this id over the WebSocket as well).
+Oh no! Even though their votes were distinct, the two users were looking at the same form. That’s not good. Let's try something like this to make sure they're each getting a unique form (and broadcasting this current use id over the WebSocket as well).
 
 ![](https://i.imgur.com/uCUw2Uz.png)
 
