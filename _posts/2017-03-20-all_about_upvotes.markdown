@@ -48,7 +48,7 @@ When loading the show page for a review, we’d check to see if you’ve cast a 
 
 **Real Time Response**
 
-I would have been satisfied with this system had Ian not offhandedly said, “If only we didn’t have to reload the page”. Yeah. That would be cool, but it was beyond my familiarity and abilities. Still, I couldn’t get the idea out of my head. My classmate Charles suggested [WebSockets](https://en.wikipedia.org/wiki/WebSocket), a topic I with which I was familiar in theory but less so in practice. So, thinking “am I really going to go down this rabbit hole?”, I embarked on the quest for real-time upvotes. I started with [this excellent blog post](https://blog.heroku.com/real_time_rails_implementing_WebSockets_in_rails_5_with_action_cable), which went through the steps to set up action cable, Rails’ built in web socket technology. The blog was fairly detailed, I needed only adjust a few pieces to make her solution work for my problem. And before I knew it, I was	 seeing this in my terminal
+I would have been satisfied with this system had Ian not offhandedly said, “If only we didn’t have to reload the page”. Yeah. That would be cool, but it was beyond my familiarity and abilities. Still, I couldn’t get the idea out of my head. My classmate Charles suggested [WebSockets](https://en.wikipedia.org/wiki/WebSocket), a topic I with which I was familiar in theory but less so in practice. So, thinking “am I really going to go down this rabbit hole?”, I embarked on the quest for real-time upvotes. I started with [this excellent blog post](https://blog.heroku.com/real_time_rails_implementing_WebSockets_in_rails_5_with_action_cable), which went through the steps to set up action cable, Rails’ built in web socket technology. The blog was fairly detailed, I needed only adjust a few pieces to make her solution work for my problem. And before I knew it, I was seeing this in my terminal
 
 ![](https://i.imgur.com/iDQH0WR.png)
 
@@ -86,7 +86,7 @@ But also this. :-(
 
 ![](https://s13.postimg.org/9slqoh3on/ezgif_3_a25e597e78.gif)
 
-Oh no! Even though their votes were distinct, the two users were looking at the same form. That’s not good. Let's try something like this to make sure they're each getting a unique form (and broadcasting this current use id over the WebSocket as well).
+Oh no! Even though their votes were distinct, the two users were looking at the same form. That’s not good. Let's try something like this to make sure they're each getting a unique form (and broadcasting this current user id over the WebSocket as well).
 
 ![](https://i.imgur.com/uCUw2Uz.png)
 
@@ -94,6 +94,6 @@ Phew. At last, our work is complete!
 
 ![](https://s14.postimg.org/6ff8qekb5/ezgif_3_7794e948af.gif)
 
-What I loved about this particular portion of the project was that I got the implementation of this feature through from concept to reality. I thank my teammates for trusting me to make it work, and let me go down the rabbit hole of WebSockets to emerge the better for it. I hope that this may be helpful to somebody looking to use this system in their own application. And I hope to have many more coding experiences as engaging as this one proved to be.
+What I loved about this particular portion of the project was that I got to see the implementation of this feature through from concept to reality. I thank my teammates for trusting me to make it work, and let me go down the rabbit hole of WebSockets to emerge the better for it. I hope that this may be helpful to somebody looking to use this system in their own application. And I hope to have many more coding experiences as engaging as this one proved to be.
 
 See this code in action at [KokoMusic](http://kokomusic.herokuapp.com). ([GitHub](https://github.com/depaolif/yelpify))
