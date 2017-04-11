@@ -61,7 +61,7 @@ The first argument of bind will always be applied to the value of ‘this’ ins
 
 So the above code deals with the first argument of the the bind() function, but the power of the function lies in the ability the pass in additional arguments too. 
 
-![](http://i.imgur.com/undefined.png)
+![](https://i.imgur.com/0XuBOrN.png)
 
 Here, we bound not only the context, but also the argument that variable, ‘curry’, stands in for. See that on lines 15 and 20, we call the method with no supplied arguments. This is what currying is all about, partial application of a function’s arguments. It’s not too hard to imagine a scenario where we have data that is needed for the function to properly accomplish it’s task, but it may not be convenient to pass it in at the time the function is called. Currying allows us to essentially prepare the arguments in advance. Here’s another example in a slightly different context:
 
