@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Currying"
-date:   2017-04-11 01:10:33 +0000
+date:   2017-04-10 21:10:34 -0400
 ---
 
 During the last week at Flatiron, we’ve been learning React, a Javascript library for building user interfaces. I’ve found it nothing short of game-changing when compared to the single page JavaScript-powered clients we made two short weeks ago. In fact, part of our work has been to rebuild our JavaScript applications using React. Gone is the obligation of manipulating the DOM, React does this under the hood and with a great deal of efficiency and intelligence. Instead, I get to focus more on describing what the data and presentation look like. I’ll likely write more about what makes React cool in future blog posts, but today I’m going to talk about a smaller topic, not specific to React (though commonly encountered), but related to JavaScript as a larger subject. 
@@ -55,7 +55,7 @@ Both a.sayType() and b() are functioning properly, and the supplied argument is 
 
 ![](http://i.imgur.com/h2WDyr4.png)
 
-The first argument of bind will always be applied to the value of ‘this’ inside the callback. So the reason we get the unexpected ‘undefined tikka masala’ on line 19, is the fact that this.type is an undefined value. When we alter the code to pass merely ‘this’ into the console, it behaves as expected.
+The first argument of bind will always be applied to the value of ‘this’ inside the callback. So the reason we get the unexpected ‘undefined tikka masala’ on line 19, is the fact that this.type is an undefined value because the string 'tikka masala' does respond to a .type() method. When we alter the code to pass merely ‘this’ into the console, it behaves as expected.
 
 ![](http://i.imgur.com/s8gpz8P.png)
 
