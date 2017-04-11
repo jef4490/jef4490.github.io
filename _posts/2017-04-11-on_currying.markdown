@@ -13,7 +13,7 @@ During the last week at Flatiron, we’ve been learning React, a Javascript libr
 One thing I’ve stumbled upon during some of our course work is something like this:
 
 ```
-onClick={this.props.onClick.bind(null, this.state.selectedIndex}
+onClick={this.props.onClick.bind(null, this.state.selectedIndex)}
 ```
 
 This is called currying and it caught me off guard because it looked a little familiar, but still very foreign. The familiar; a common practice in React (and Javascript/jQuery in general) is binding callbacks for event handlers to the context of the class in which they were created. For example:
