@@ -55,7 +55,7 @@ Both a.sayType() and b() are functioning properly, and the supplied argument is 
 
 ![](http://i.imgur.com/h2WDyr4.png)
 
-The first argument of bind will always be applied to the value of ‘this’ inside the callback. So the reason we get the unexpected ‘undefined tikka masala’ on line 19, is the fact that this.type is an undefined value because the string 'tikka masala' does respond to a .type() method. When we alter the code to pass merely ‘this’ into the console, it behaves as expected.
+The first argument of bind will always be applied to the value of ‘this’ inside the callback. So the reason we get the unexpected ‘undefined tikka masala’ on line 19, is the fact that this.type is an undefined value because the string 'tikka masala' doesn't know how to respond to a .type() method. When we alter the code to pass merely ‘this’ into the console (on line 8), it behaves more rationally.
 
 ![](http://i.imgur.com/s8gpz8P.png)
 
