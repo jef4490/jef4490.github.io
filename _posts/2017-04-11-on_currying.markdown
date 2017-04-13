@@ -68,7 +68,7 @@ Here, we bound not only the context, but also the argument that variable, ‘cur
 
 ![](http://i.imgur.com/lgwdZhP.png)
 
-Notice line 12. We use the null keyword to maintain the previous context binding on line 4, while adding the second argument of ‘tikka masala’. Notice, how the bound argument fills the first of two arguments that reviewDish() accepts. Then the only supplied argument during the method call on line 19 is applies to the comments variable.
+Notice line 12. We use the null keyword to maintain the previous context binding on line 4, while adding the second argument of ‘tikka masala’. Notice, how the bound argument fills the first of two arguments that reviewDish() accepts. Then the only supplied argument during the method call on line 19 is applied to the comments variable.
 
 ![](http://i.imgur.com/egSknq2.png)
 
