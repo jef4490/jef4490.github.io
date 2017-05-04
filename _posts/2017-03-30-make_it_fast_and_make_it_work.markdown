@@ -60,4 +60,4 @@ It’s important to me to make sure that the experience of our demo blowing up b
 
 As we went back over the culprit methods and functions, we noticed other things that wanted some love as well. Simple things like commenting and proper indentation, but also greater consistency in variable names, for example.
 
-In the end, it was a pretty humbling experience having your work blow up in your face in the moment. But I can also safely say that I will this was an error I am not likely to repeat and for that, I am grateful that the experience was in as warm and receptive an environment as it was. Now I dive headfirst back into the world of learning & code, wiser for the experience.
+In the end, it was a pretty humbling experience having your work blow up in your face in the moment. But I can also safely say that this was an error I am not likely to repeat and for that, I am grateful that the experience was in as warm and receptive an environment as it was. Now I dive headfirst back into the world of learning & code, wiser for the experience.
