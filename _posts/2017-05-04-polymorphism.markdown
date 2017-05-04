@@ -9,10 +9,10 @@ Polymorphism is a term I’ve heard quite a bit in the last few weeks especially
 
 ![](https://technofriends.files.wordpress.com/2008/02/polymorphism.gif)
 
-Polymorphism is the concept of sending the same message to different objects and get different results. In Ruby, for example, 
-this equates to calling the same method on a a variety of objects and expecting the objects to behave differently. This is a keystone of the object orientated paradigm and when you think about it, the reasons become pretty clear. Namely, when we create applications we cannot predict the selections a user might make, and our objects need to being to handle the methods they might be called with dynamically.
+Polymorphism is the concept of sending the same message to different objects and get different results. In Ruby, for example, this equates to calling the same method on a a variety of objects and expecting the objects to behave differently. This is a keystone of the object orientated paradigm and when you think about it, the reasons become pretty clear. Namely, when we create applications we cannot predict the selections a user might make, and our objects need to being to handle the methods they might be called with dynamically.
 
-<pun>Polymorphism takes on several different forms</pun>. One of the most common ways of implementing polymorphism is through the use of inheritance. With inheritance, a child object has access to the properties and methods defined in its parent class. Here’s a brief example of inheritance illustrating polymorphism.
+
+```<pun>```Polymorphism takes on several different forms```</pun>```. One of the most common ways of implementing polymorphism is through the use of inheritance. With inheritance, a child object has access to the properties and methods defined in its parent class. Here’s a brief example of inheritance illustrating polymorphism.
 
 ``` 
 class MagicalClothes
