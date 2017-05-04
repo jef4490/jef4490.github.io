@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Polymorphism"
-date:   2017-05-04 16:57:16 +0000
+date:   2017-05-04 12:57:16 -0400
 ---
 
 
@@ -65,6 +65,6 @@ I don’t need to figure out if an individual member of that collection is a Shi
 
 ```clothing.each{|item| puts item.introduce}```
 
-There’s no need for conditionals to determine how to handle one item vs the next. There are other ways to implement polymorphism in Ruby also. A common one is Duck Typing. Another is the use of a decorator pattern. I’ll touch on these in future posts.
+There’s no need for conditionals to determine how to handle one item vs the next. There are other ways to implement polymorphism in Ruby also. A common one is [Duck Typing](http://rubylearning.com/satishtalim/duck_typing.html). Another is the use of a [decorator pattern](http://nithinbekal.com/posts/ruby-decorators/). I’ll touch on these in future posts.
 
 Thanks for reading!
